@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="400dp"
+            android:layout_height="150dp"
+            android:src="@drawable/ic_person_black" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:layout_marginTop="5dp"
+        >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+
+
+            <TextView
+
+                android:layout_width="109dp"
+                android:layout_height="wrap_content"
+                android:text="Mã sv"
+                android:textColor="#ff3a3a"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/dialog_masv"
+                android:layout_width="277dp"
+                android:layout_height="wrap_content"
+                android:text="PH05670"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+
+            <TextView
+
+                android:layout_width="109dp"
+                android:layout_height="wrap_content"
+                android:text="Tên"
+                android:textColor="#ff3a3a"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/dialog_Name"
+                android:layout_width="277dp"
+                android:layout_height="wrap_content"
+                android:text="Nguyễn Quang Hiệp"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+
+            <TextView
+
+                android:layout_width="109dp"
+                android:layout_height="wrap_content"
+                android:text="Giới Tính"
+                android:textColor="#ff3a3a"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/gioitinh"
+                android:layout_width="277dp"
+                android:layout_height="wrap_content"
+                android:text="Nam"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+
+            <TextView
+
+                android:layout_width="109dp"
+                android:layout_height="wrap_content"
+                android:text="Địa chỉ"
+                android:textColor="#ff3a3a"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/dialog_diachi"
+                android:layout_width="277dp"
+                android:layout_height="wrap_content"
+                android:text="Hà Nội"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+
+            <TextView
+
+                android:layout_width="109dp"
+                android:layout_height="wrap_content"
+                android:text="Ngành Học"
+                android:textColor="#ff3a3a"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/dialog_nganhoc"
+                android:layout_width="277dp"
+                android:layout_height="wrap_content"
+                android:text="Mobile"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+
+            <TextView
+
+                android:layout_width="109dp"
+                android:layout_height="wrap_content"
+                android:text="Lớp Học"
+                android:textColor="#ff3a3a"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/item_dialog_Name"
+                android:layout_width="277dp"
+                android:layout_height="wrap_content"
+                android:text="13352"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

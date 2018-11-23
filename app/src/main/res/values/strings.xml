@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">DuAn1_QuanLyHocTap</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_thoat">thoat</string>
+    <string name="timkiem">tim kiem</string>
+    <string name="introduce">App quản lý thông tin , điểm của học sinh sinh viên, nhằm mục đích giúp cho người quản lý có thể quản lý điểm, học sinh, sinh viên được dễ dàng và thuận tiện hơn, bao gồm các chức năng thêm, sửa, xóa các học sinh, sinh viên, ngoài ra còn có update lại điểm cho học sinh sinh viên   </string>
+
+</resources>

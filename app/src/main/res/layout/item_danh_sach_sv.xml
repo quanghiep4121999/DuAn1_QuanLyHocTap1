@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="8dp"
+    android:layout_marginTop="20dp"
+    android:layout_marginRight="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+
+        <ImageView
+            android:id="@+id/AVA_SV"
+            android:layout_width="80dp"
+            android:layout_height="125dp"
+            android:src="@drawable/ic_person_black" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <TextView
+
+                    android:layout_width="109dp"
+                    android:layout_height="wrap_content"
+                    android:text="Tên"
+                    android:textColor="#ff3a3a"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:id="@+id/item_Name"
+                    android:layout_width="229dp"
+                    android:layout_height="wrap_content"
+                    android:text="Nguyễn Quang Hiệp"
+                    android:textColor="#000000"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mã Sinh viên: "
+                    android:textColor="#0f7c7e"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:id="@+id/item_MaSV"
+                    android:layout_width="77dp"
+                    android:layout_height="25dp"
+                    android:text="PH05670"
+                    android:textColor="#138c05"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="182dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="107dp"
+                    android:layout_height="wrap_content"
+                    android:text="Ngành học: "
+                    android:textColor="#0f7c7e"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:id="@+id/item_MaNganh"
+                    android:layout_width="77dp"
+                    android:layout_height="wrap_content"
+                    android:text="mobile"
+                    android:textColor="#138c05"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="107dp"
+                    android:layout_height="wrap_content"
+                    android:text="Giới Tính: "
+                    android:textColor="#0f7c7e"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:id="@+id/item_gioitinh"
+                    android:layout_width="77dp"
+                    android:layout_height="wrap_content"
+                    android:text="Nam"
+                    android:textColor="#138c05"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="310dp"
+        >
+
+        <ImageView
+            android:id="@+id/item_delete_ds_sv"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/icondelete" />
+
+        <ImageView
+            android:id="@+id/item_edit_ds_sv"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/edit" />
+    </LinearLayout>
+
+
+
+
+</android.support.v7.widget.CardView>

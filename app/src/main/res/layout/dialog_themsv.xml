@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thêm Sinh Viên"
+        android:textColor="#ca0303"
+        android:textSize="20dp" />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="400dp"
+            android:layout_height="100dp"
+            android:src="@drawable/ic_person_black" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <EditText
+            android:id="@+id/edt_dialog_Tensv"
+            android:layout_width="306dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="35dp"
+            android:hint="Ten sv" />
+
+
+        <EditText
+            android:id="@+id/edt_dialog_masv"
+            android:layout_width="306dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="35dp"
+            android:hint="Ma sv" />
+        <EditText
+            android:id="@+id/edt_dialog_gioitinh"
+            android:layout_width="306dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="35dp"
+            android:hint="Giới tính" />
+
+        <EditText
+            android:id="@+id/edt_dialog_diachi"
+            android:layout_width="306dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="35dp"
+            android:hint="Địa chỉ" />
+
+        <EditText
+            android:id="@+id/edt_dialog_nganhoc"
+            android:layout_width="306dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="35dp"
+            android:hint="Ngành học" />
+
+        <EditText
+            android:id="@+id/edt_dialog_lophoc"
+            android:layout_width="306dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="35dp"
+            android:hint="Lớp học" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="59dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Thêm"
+                android:textAllCaps="false"
+                android:textColor="#df4d0202" />
+
+            <Button
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="hủy"
+                android:textAllCaps="false"
+                android:textColor="#df4d0202" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+</LinearLayout>
+
